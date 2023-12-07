@@ -1,0 +1,15 @@
+.box{
+    display: flex;
+    margin-left: 600px;
+    gap: 50px;
+    margin-top: -25px;
+}
+.box1{
+    display: flex;
+    gap: 50px;
+    color: rgb(70, 74, 77);
+}
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+}

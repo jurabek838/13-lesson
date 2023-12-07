@@ -1,0 +1,63 @@
+
+/* external style  */
+.text-one {
+    /* textga rang berish */
+    color: red;
+    /* orqa fonga rang berish */
+    background-color: blue;
+    /* textni razmeri */
+    font-size: 25px;
+
+    font-weight: 700;
+/* text  kurinishi */
+    font-style: italic;
+/* textlarni turi kurinishi  */
+    font-family: sans-serif;
+/* textlarni tagiga chizish */
+    text-decoration: underline;
+/* textlarni ustidan chizish */
+    text-decoration: line-through;
+/* textni tepasidan chizish */
+    text-decoration: overline;
+/* textni markazga olib kelish */
+    text-align: center;
+/* text turlari */
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+
+    line-height: 40px;
+/* hariflarni orasini ochish */
+    letter-spacing: 50px;
+
+    word-spacing: 50px;
+}
+
+.text {
+    /* chegara */
+    border: 1px solid red;
+    border: 1px dashed red;
+    border: 1px dotted red;
+    border: 10px solid black;
+    /* tepadan chegara */
+    border-top: 10px solid;
+/* pasdan chegara */
+    border-bottom: 10px solid red;
+/* chapdan chegara */
+    border-left: 10px solid blue;
+    /* ungdan chegara */
+    border-right: 10px solid green;
+    border-right: 10px solid purple;
+    border-left: 10px solid green;
+}
+
+.text {
+    /* ichkaridan kengaytirish */
+    padding: 100px;
+ /* chaptamondan kengaytirish    */
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    padding-top: 100px;
+    background-color: red;
+}

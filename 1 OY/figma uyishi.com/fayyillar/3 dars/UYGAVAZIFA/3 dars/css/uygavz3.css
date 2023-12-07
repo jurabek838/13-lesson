@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(241, 120, 120);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: red;
+}
+.text-p{
+    color: black;
+}
+.text-pro{
+    background-color:wheat ;
+    width: 140px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}  display: flex;
+.text-premium{
+    background-color:wheat ;
+    width: 140px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}   display: flex;
+
+
+
+
+
+
+.text-platinum{
+    background-color: red;
+    width: 140px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px ;
+    display: flex; 
+}

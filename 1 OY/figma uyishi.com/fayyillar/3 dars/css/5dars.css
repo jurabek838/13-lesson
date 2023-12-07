@@ -1,0 +1,54 @@
+/* red, green, blue => RGB rang qiymati QIZIL, YASIL va KO'K yorug'lik manbalarini ifodalaydi.
+  CSS-da rangni RGB qiymati sifatida quyidagi formula yordamida belgilash mumkin:
+  rgb ( qizil, yashil , ko'k )
+  Har bir parametr (qizil, yashil va ko'k) rangning intensivligini 0 dan 255 gacha belgilaydi.
+  Masalan, rgb(255, 0, 0) qizil rangda ko'rsatiladi, chunki qizil rang eng yuqori qiymatga (255), qolganlari esa 0 ga o'rnatiladi.
+  Qora rangni ko'rsatish uchun barcha rang parametrlarini 0 ga o'rnating, masalan: rgb(0, 0, 0).
+  Oq rangni ko'rsatish uchun barcha rang parametrlarini 255 ga o'rnating, masalan: rgb(255, 255, 255).*/
+
+  /* #67bf36  => HEX O'n oltilik rang quyidagilar bilan belgilanadi: #RRGGBB, bu erda RR (qizil), GG (yashil) va BB (ko'k)
+  o'n oltilik butun sonlar rang komponentlarini belgilaydi.
+  CSS-da rangni quyidagi shaklda o'n oltilik qiymatdan foydalanib belgilash mumkin:
+  # rrggbb
+  Bu erda rr (qizil), gg (yashil) va bb (ko'k) 00 va ff o'rtasidagi o'n oltilik qiymatlardir (o'nlik kasr 0-255 bilan bir xil).
+  Misol uchun, #ff0000 qizil rangda ko'rsatiladi, chunki qizil rang eng yuqori qiymatga (ff), qolganlari esa eng past qiymatga (00) o'rnatiladi.
+  Qora rangni ko'rsatish uchun barcha qiymatlarni 00 ga o'rnating, masalan: #000000.
+  Oq rangni ko'rsatish uchun barcha qiymatlarni ff ga o'rnating, masalan: #ffffff.  */
+
+  /* width => Elementning kengligini belgilaydi.
+   min -width va max-width xususiyatlari width xususiyatni bekor qiladi. */
+
+  /* height => Elementning balandligini belgilaydi. 
+  min -height va max-height xususiyatlari heightxususiyatni bekor qiladi.*/
+
+  /* display =>  tartibni boshqarish uchun eng muhim CSS xususiyatidir.
+  element qanday ko'rsatilishini belgilaydi.
+  */
+
+  /* inline vs block => CSS-da inline va blok darajasidagi elementlar mavjud.
+  Ularning orasidagi farq shundaki, inline elementlar butun joyni egallamaydi
+  – ya’ni ular yangi satrdan boshlanmaydi – lekin blok elementlari egallaydi. */
+
+
+  /* border-radius => element burchaklarining radiusini belgilaydi.
+
+  To'rtta qiymat - chegara radiusi: 15px 50px 30px 5px; (birinchi qiymat yuqori chap burchakka, ikkinchi qiymat
+  yuqori o'ng burchakka, uchinchi qiymat pastki o'ng burchakka va to'rtinchi qiymat pastki chap burchakka amal qiladi): 
+
+  Uchta qiymat - chegara radiusi: 15px 50px 30px; (birinchi qiymat yuqori chap burchakka,
+  ikkinchi qiymat yuqori o'ng va pastki chap burchaklarga, uchinchi qiymat esa pastki o'ng burchakka amal qiladi):
+
+  Ikki qiymat - chegara-radius: 15px 50px; (birinchi qiymat yuqori chap va pastki o'ng burchaklarga, ikkinchi qiymat
+  esa yuqori o'ng va pastki chap burchaklarga qo'llaniladi):
+
+  Bitta qiymat - chegara radiusi: 15px; (qiymat teng yaxlitlangan barcha to'rt burchak uchun amal qiladi:*/
+
+  /* border-top-right-radius: 40px; */
+  /* border-top-left-radius: 20px;  */
+ 
+
+
+/* .text{
+  display: block;
+} */
+
